@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Css variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+        <div class="sub-box">
+            <h1>Css Variable Update with <span>JS</span></h1>
+
+            <label for="spacing">Spacing:</label> <p id="dpl"></p>
+            <input type="range" min="0" max="30" data-sizing="px" value="0" name="spacing"><br>
+
+            <label for="blur">Blur:</label><br>
+            <input type="range" min="0" max="10" data-sizing="px" value="0" name="blur"><br>
+
+            <label for="color">color:</label><br>
+            <input type="color" name="base" value="#ff00ff">
+            
+            <div class="img-box">
+                <img src="img/01.png" alt="flowre">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
